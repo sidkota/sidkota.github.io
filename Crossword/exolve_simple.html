@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!--
+This is a copy of exolve-m.html that can be used without hosting the
+exolve-m.js and exolve-m.css files, as this links to their latest
+copies at https://viresh-ratnakar.github.io/.
+MIT License
+Copyright (c) 2019 Viresh Ratnakar
+See the full Exolve license notice in exolve-m.js.
+Version: Exolve v0.96 October 18 2020
+-->
+
+<link rel="stylesheet" type="text/css" href="https://viresh-ratnakar.github.io/exolve-m.css?v0.96"/>
+<script src="https://viresh-ratnakar.github.io/exolve-m.js?v0.96"></script>
+
+<title>Crossword</title>
+
+</head>
+<body>
+<script>
+createExolve(`
+======REPLACE WITH YOUR PUZZLE BELOW======
+exolve-begin
+  exolve-id: exolve-example
+  exolve-title: Quick 5x5
+  # Uncomment and edit the next two lines if you want to show the setter's name
+  # and/or show a copyright notice.
+   exolve-setter: Siddharth
+  # exolve-copyright: 2020 Viresh Ratnakar
+  exolve-width: 5
+  exolve-height: 5
+  # You can provide solution letters instead of zeroes in the grid, which
+  # will create control buttons for revealing and checking entered letters.
+  exolve-grid:
+    HELLO
+    O.A..
+    R.S..
+	N.TEN
+	....O
+  exolve-across:
+    1 Greeting when we meet (5)
+    2 Text form of 10 (3)
+  exolve-down:
+    1 WE honk this when we drive the car (4)
+    2 The position you finish a race on, if there is no one behind you (4)
+	3 Way to deny things (2)
+exolve-end
+======REPLACE WITH YOUR PUZZLE ABOVE======
+`);
+</script>
+</body>
+</html>
